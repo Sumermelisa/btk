@@ -1,0 +1,11 @@
+isim=input("adınız?")
+print("hoş geldin", isim)#inputtan girilen değerler string tipindedir
+sayi1=int(input("1. sayıyı giriniz"))
+sayi2=int(input("2. sayıyı giriniz"))
+print("sayılarınızn toplamı:",sayi1+sayi2)
+print("sayılarınızn farkı:",sayi1-sayi2)
+print("sayılarınızn çarpımı:",sayi1*sayi2)
+print("sayılarınızn bölümü:",sayi1/sayi2)
+print("sayılarınızn tam bölümü:",sayi1//sayi2)
+print(sayi1, "üzeri" ,str(sayi2)+":",sayi1**sayi2)
+print(sayi1,"sayısının",sayi2,"sayısına","bölümünden kalan:",sayi1%sayi2)
